@@ -25,7 +25,6 @@ const WhyUs = () => {
             className=' rounded-2xl mt-56'
             src={leftImg}
             alt='right image'
-            layout='fixed'
           />
         </div>
 
