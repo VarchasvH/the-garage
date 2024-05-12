@@ -16,7 +16,7 @@ const Collection = () => {
           {" "}
           Browse our Collection
         </h1>
-        <p className='font-serif mt-6 text-xl px-96'>
+        <p className='font-serif mt-6 text-xl px-96 tracking-wide'>
           Choose from an exceptional array of luxury vehicles from renowned
           automotive marques, meticulously curated to offer the ultimate in
           premium driving experiences.

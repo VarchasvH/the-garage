@@ -11,7 +11,7 @@ const WhyUs = () => {
   return (
     <section
       className='bg-[#161a1e] min-h-screen flex flex-col justify-center items-center '
-      id='collection'
+      id='about'
     >
       <div className='flex'>
         <div

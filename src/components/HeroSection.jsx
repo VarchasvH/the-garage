@@ -1,5 +1,6 @@
 import Link from "next/link";
 import bgImage from "../../public/images/hero-image.jpg";
+
 const HeroSection = () => {
   return (
     <section
@@ -12,7 +13,7 @@ const HeroSection = () => {
       }}
       className='flex flex-col justify-center items-center'
     >
-      <text className='text-7xl bg-neutral-950 bg-opacity-70 px-64'>
+      <text className='text-7xl bg-neutral-950 bg-opacity-75 px-64'>
         Every journey becomes an experience with a car.
       </text>
       <Link href='#collection'>
