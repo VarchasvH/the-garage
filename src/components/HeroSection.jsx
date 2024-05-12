@@ -17,7 +17,7 @@ const HeroSection = () => {
         Every journey becomes an experience with a car.
       </text>
       <Link href='#collection'>
-        <button className='bg-orange-500 rounded-lg py-4 px-6 mt-32 text-white'>
+        <button className='bg-orange-500 hover:bg-orange-700 rounded-lg py-4 px-6 mt-32 text-white'>
           View our collection
         </button>
       </Link>

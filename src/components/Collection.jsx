@@ -3,6 +3,7 @@ import porsche from "../../public/images/collection/porsche.jpg";
 import lamborghini from "../../public/images/collection/lamborghini.jpg";
 import mclaren from "../../public/images/collection/mclaren.jpg";
 import nissan from "../../public/images/collection/nissan.jpg";
+import Link from "next/link";
 
 const Collection = () => {
   return (
@@ -24,150 +25,161 @@ const Collection = () => {
       </div>
 
       <div className='flex space-x-5 px-14'>
-        <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315] pr-4 py-4'>
-          <Image
-            className=' rounded-2xl ml-4'
-            src={porsche}
-            alt='right image'
-            width={300}
-            height={300}
-          />
-          <div className='bg-gray-600 h-0.5 mt-8 ml-3' />
-          <div className='mt-5'>
-            <text className='font-mono pr-12 pl-16 text-xl text-white'>
-              Porsche 911 GT3 RS
-            </text>
-            <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600'>Year</p>
-                <p className='text-sm text-white'>2020</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600'>Fuel Type</p>
-                <p className='text-sm text-white'>Gasoline</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mode</p>
-                <p className='text-sm px-2 text-white'>Automatic</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mileage</p>
-                <p className='text-sm text-white'>120 mi</p>
-              </div>
-            </info>
-            <p className='text-lg mt-7  mx-28 font-mono text-orange-500'>
-              $130,000
-            </p>
+        {/* Porsche */}
+        <Link href='/porsche'>
+          <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315] pr-4 py-4'>
+            <Image
+              className=' rounded-2xl ml-4'
+              src={porsche}
+              alt='right image'
+              width={300}
+              height={300}
+            />
+            <div className='bg-gray-600 h-0.5 mt-8 ml-3' />
+            <div className='mt-5'>
+              <text className='font-mono pr-12 pl-16 text-xl text-white'>
+                Porsche 911 GT3 RS
+              </text>
+              <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600'>Year</p>
+                  <p className='text-sm text-white'>2020</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600'>Fuel Type</p>
+                  <p className='text-sm text-white'>Gasoline</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mode</p>
+                  <p className='text-sm px-2 text-white'>Automatic</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mileage</p>
+                  <p className='text-sm text-white'>120 mi</p>
+                </div>
+              </info>
+              <p className='text-lg mt-7  mx-28 font-mono text-orange-500'>
+                $130,000
+              </p>
+            </div>
           </div>
-        </div>
-        <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4'>
-          <Image
-            className=' rounded-2xl ml-4'
-            src={lamborghini}
-            alt='right image'
-            width={300}
-            height={300}
-          />
-          <div className='bg-gray-600 h-0.5 mt-5 ml-3' />
-          <div className='mt-5'>
-            <text className='font-mono px-7 text-xl text-white'>
-              Lamborghini Hurracan Evo
-            </text>
-            <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
-              <div className='flex flex-col justify-center items-center text-white'>
-                <p className='text-xs text-gray-600'>Year</p>
-                <p className='text-sm text-white'>2021</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600'>Fuel Type</p>
-                <p className='text-sm text-white'>Gasoline</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mode</p>
-                <p className='text-sm px-2 text-white'>Automatic</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mileage</p>
-                <p className='text-sm text-white'>90 mi</p>
-              </div>
-            </info>
-            <p className='text-lg mt-7  mx-28 font-mono text-orange-500'>
-              $240,000
-            </p>
+        </Link>
+        {/* Lamborghini */}
+        <Link href='/lamborghini'>
+          <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4'>
+            <Image
+              className=' rounded-2xl ml-4'
+              src={lamborghini}
+              alt='right image'
+              width={300}
+              height={300}
+            />
+            <div className='bg-gray-600 h-0.5 mt-5 ml-3' />
+            <div className='mt-5'>
+              <text className='font-mono px-7 text-xl text-white'>
+                Lamborghini Hurracan Evo
+              </text>
+              <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
+                <div className='flex flex-col justify-center items-center text-white'>
+                  <p className='text-xs text-gray-600'>Year</p>
+                  <p className='text-sm text-white'>2021</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600'>Fuel Type</p>
+                  <p className='text-sm text-white'>Gasoline</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mode</p>
+                  <p className='text-sm px-2 text-white'>Automatic</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mileage</p>
+                  <p className='text-sm text-white'>90 mi</p>
+                </div>
+              </info>
+              <p className='text-lg mt-7  mx-28 font-mono text-orange-500'>
+                $240,000
+              </p>
+            </div>
           </div>
-        </div>
-        <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4'>
-          <Image
-            className=' rounded-2xl ml-4'
-            src={mclaren}
-            alt='right image'
-            width={300}
-            height={300}
-          />
-          <div className='bg-gray-600 h-0.5 mt-5 ml-3 text-white' />
-          <div className='mt-5'>
-            <text className='font-mono pl-24 pr-20 text-xl text-white'>
-              McLaren 720S
-            </text>
-            <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600'>Year</p>
-                <p className='text-sm'>2022</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600'>Fuel Type</p>
-                <p className='text-sm'>Gasoline</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mode</p>
-                <p className='text-sm px-2'>Automatic</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mileage</p>
-                <p className='text-sm '>260 mi</p>
-              </div>
-            </info>
-            <p className='text-lg mt-7 mx-28 font-mono text-orange-500'>
-              $330,000
-            </p>
+        </Link>
+        {/* McLaren */}
+        <Link href='/mclaren'>
+          <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4'>
+            <Image
+              className=' rounded-2xl ml-4'
+              src={mclaren}
+              alt='right image'
+              width={300}
+              height={300}
+            />
+            <div className='bg-gray-600 h-0.5 mt-5 ml-3 text-white' />
+            <div className='mt-5'>
+              <text className='font-mono pl-24 pr-20 text-xl text-white'>
+                McLaren 720S
+              </text>
+              <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600'>Year</p>
+                  <p className='text-sm'>2022</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600'>Fuel Type</p>
+                  <p className='text-sm'>Gasoline</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mode</p>
+                  <p className='text-sm px-2'>Automatic</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mileage</p>
+                  <p className='text-sm '>260 mi</p>
+                </div>
+              </info>
+              <p className='text-lg mt-7 mx-28 font-mono text-orange-500'>
+                $330,000
+              </p>
+            </div>
           </div>
-        </div>
-        <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4 text-white'>
-          <Image
-            className=' rounded-2xl ml-4'
-            src={nissan}
-            alt='right image'
-            width={300}
-            height={300}
-          />
-          <div className='bg-gray-600 h-0.5 mt-5' />
-          <div className='mt-5'>
-            <text className='font-mono pr-10 pl-20 text-xl'>
-              Nissan GTR R-35
-            </text>
-            <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600'>Year</p>
-                <p className='text-sm'>2023</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600'>Fuel Type</p>
-                <p className='text-sm'>Gasoline</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mode</p>
-                <p className='text-sm px-2'>Automatic</p>
-              </div>
-              <div className='flex flex-col justify-center items-center'>
-                <p className='text-xs text-gray-600 '>Mileage</p>
-                <p className='text-sm '>270 mi</p>
-              </div>
-            </info>
-            <p className='text-lg mt-7 mx-28 font-mono text-orange-500'>
-              $190,000
-            </p>
+        </Link>
+        <Link href='/gtr'>
+          <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4 text-white'>
+            <Image
+              className=' rounded-2xl ml-4'
+              src={nissan}
+              alt='right image'
+              width={300}
+              height={300}
+            />
+            <div className='bg-gray-600 h-0.5 mt-5' />
+            <div className='mt-5'>
+              <text className='font-mono pr-10 pl-20 text-xl'>
+                Nissan GTR R-35
+              </text>
+              <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600'>Year</p>
+                  <p className='text-sm'>2023</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600'>Fuel Type</p>
+                  <p className='text-sm'>Gasoline</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mode</p>
+                  <p className='text-sm px-2'>Automatic</p>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                  <p className='text-xs text-gray-600 '>Mileage</p>
+                  <p className='text-sm '>270 mi</p>
+                </div>
+              </info>
+              <p className='text-lg mt-7 mx-28 font-mono text-orange-500'>
+                $190,000
+              </p>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     </section>
   );
