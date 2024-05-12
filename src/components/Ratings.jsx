@@ -32,7 +32,7 @@ const Ratings = () => {
             The Garage made getting my new Cayenne Coupe GTS an awesome
             experience. Wonderful staff, great selection, and top-notch service.
           </p>
-          <p className='mt-5 pl-5 text-sm'>Sekiro Wolf</p>
+          <p className='mt-5 pl-5 text-sm text-gray-400'>Sekiro Wolf</p>
           <Image alt='stars' src={star} width={150} className='pl-2' />
         </div>
       </div>
@@ -43,7 +43,7 @@ const Ratings = () => {
             First-class operation from start to finish. They treat Porsche fans
             right!
           </p>
-          <p className='mt-5 pl-5 text-sm'>Arthur Morgan</p>
+          <p className='mt-5 pl-5 text-sm text-gray-400'>Arthur Morgan</p>
           <Image alt='stars' src={star} width={150} className='pl-2' />
         </div>
         <div className=' flex flex-col backdrop-blur-2xl mx-48 py-5 my-7 rounded-lg'>
@@ -52,7 +52,7 @@ const Ratings = () => {
             my new Lamborghini Huracan Performante purchased from them. Out of
             this world service.
           </p>
-          <p className='mt-5 pl-5 text-sm'>Tommy Vercetti</p>
+          <p className='mt-5 pl-5 text-sm text-gray-400'>Tommy Vercetti</p>
           <Image alt='stars' src={star} width={150} className='pl-2' />
         </div>
       </div>
