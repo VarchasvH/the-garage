@@ -12,7 +12,7 @@ const Ratings = () => {
         backgroundRepeat: "no-repeat",
         height: "100vh",
       }}
-      className='flex flex-col justify-center items-center font-serif'
+      className='flex flex-col justify-center items-center font-serif text-white'
     >
       <text className='text-4xl bg-stone-950 bg-opacity-50 p-4 rounded-lg '>
         {" "}

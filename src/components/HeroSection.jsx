@@ -13,11 +13,11 @@ const HeroSection = () => {
       }}
       className='flex flex-col justify-center items-center'
     >
-      <text className='text-7xl bg-neutral-950 bg-opacity-75 px-64'>
+      <text className='text-7xl bg-neutral-950 bg-opacity-75 px-64 text-white'>
         Every journey becomes an experience with a car.
       </text>
       <Link href='#collection'>
-        <button className='bg-orange-500 rounded-lg py-4 px-6 mt-32'>
+        <button className='bg-orange-500 rounded-lg py-4 px-6 mt-32 text-white'>
           View our collection
         </button>
       </Link>

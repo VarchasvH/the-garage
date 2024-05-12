@@ -16,7 +16,7 @@ const Collection = () => {
           {" "}
           Browse our Collection
         </h1>
-        <p className='font-serif mt-6 text-xl px-96 tracking-wide'>
+        <p className='font-serif mt-6 text-xl px-96 tracking-wide text-white'>
           Choose from an exceptional array of luxury vehicles from renowned
           automotive marques, meticulously curated to offer the ultimate in
           premium driving experiences.
@@ -34,25 +34,25 @@ const Collection = () => {
           />
           <div className='bg-gray-600 h-0.5 mt-8 ml-3' />
           <div className='mt-5'>
-            <text className='font-mono pr-12 pl-16 text-xl'>
+            <text className='font-mono pr-12 pl-16 text-xl text-white'>
               Porsche 911 GT3 RS
             </text>
             <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600'>Year</p>
-                <p className='text-sm'>2020</p>
+                <p className='text-sm text-white'>2020</p>
               </div>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600'>Fuel Type</p>
-                <p className='text-sm'>Gasoline</p>
+                <p className='text-sm text-white'>Gasoline</p>
               </div>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600 '>Mode</p>
-                <p className='text-sm px-2'>Automatic</p>
+                <p className='text-sm px-2 text-white'>Automatic</p>
               </div>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600 '>Mileage</p>
-                <p className='text-sm '>120 mi</p>
+                <p className='text-sm text-white'>120 mi</p>
               </div>
             </info>
             <p className='text-lg mt-7  mx-28 font-mono text-orange-500'>
@@ -70,25 +70,25 @@ const Collection = () => {
           />
           <div className='bg-gray-600 h-0.5 mt-5 ml-3' />
           <div className='mt-5'>
-            <text className='font-mono px-7 text-xl'>
+            <text className='font-mono px-7 text-xl text-white'>
               Lamborghini Hurracan Evo
             </text>
             <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
-              <div className='flex flex-col justify-center items-center'>
+              <div className='flex flex-col justify-center items-center text-white'>
                 <p className='text-xs text-gray-600'>Year</p>
-                <p className='text-sm'>2021</p>
+                <p className='text-sm text-white'>2021</p>
               </div>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600'>Fuel Type</p>
-                <p className='text-sm'>Gasoline</p>
+                <p className='text-sm text-white'>Gasoline</p>
               </div>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600 '>Mode</p>
-                <p className='text-sm px-2'>Automatic</p>
+                <p className='text-sm px-2 text-white'>Automatic</p>
               </div>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600 '>Mileage</p>
-                <p className='text-sm '>90 mi</p>
+                <p className='text-sm text-white'>90 mi</p>
               </div>
             </info>
             <p className='text-lg mt-7  mx-28 font-mono text-orange-500'>
@@ -104,9 +104,11 @@ const Collection = () => {
             width={300}
             height={300}
           />
-          <div className='bg-gray-600 h-0.5 mt-5 ml-3' />
+          <div className='bg-gray-600 h-0.5 mt-5 ml-3 text-white' />
           <div className='mt-5'>
-            <text className='font-mono pl-24 pr-20 text-xl'>McLaren 720S</text>
+            <text className='font-mono pl-24 pr-20 text-xl text-white'>
+              McLaren 720S
+            </text>
             <info className='grid grid-cols-4 divide-x-[1px] divide-gray-600 mt-5'>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-xs text-gray-600'>Year</p>
@@ -130,7 +132,7 @@ const Collection = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4'>
+        <div className='flex flex-col bg-[#252a30] rounded-xl hover:bg-[#111315]  pr-4 py-4 text-white'>
           <Image
             className=' rounded-2xl ml-4'
             src={nissan}

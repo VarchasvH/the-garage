@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className=' bg-[#0c0c0c] bg-opacity-100 py-3 flex justify-between items-center px-28 font-serif font-light'>
+      <nav className=' bg-[#0c0c0c] bg-opacity-100 py-3 flex justify-between items-center px-28 font-serif font-light text-white'>
         <div className='flex items-center text-sm'>
           <div className='flex gap-4 '>
             <Image src={phoneIcon} alt='Phone Icon' width={25} height={25} />

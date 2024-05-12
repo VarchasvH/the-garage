@@ -5,7 +5,7 @@ import extra2 from "../../public/images/extra2.jpg";
 
 const Extra = () => {
   return (
-    <section className='bg-[#161a1e] min-h-screen'>
+    <section className='bg-[#161a1e] min-h-screen text-white'>
       <div className='flex'>
         <div className='flex flex-col space-x-4 '>
           <text className='font-serif font-normal text-4xl px-48 tracking-wider mt-32'>
